@@ -5,3 +5,9 @@ Microsoft.EntityFrameworkCore.SqlServer
 Microsoft.Extensions.DependencyInjection.Abstractions
 API
 Microsoft.Extensions.DependencyInjection.Abstractions
+Microsoft.EntityFrameworkCore.Tools
+
+Commands that used into project 
+dotnet ef migrations add dvdesignchange -s ..\RTBApp.API\RTBApp.API.csproj
+dotnet ef database drop -s ..\RTBApp.API\RTBApp.API.csproj
+ dotnet ef migrations script -s ..\RTBApp.API\RTBApp.API.csproj
